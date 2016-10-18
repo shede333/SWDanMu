@@ -1,5 +1,8 @@
 # SWDanMu
-A Simple DanMu iOS Prokect
+
+A Simple DanMu iOS Project
+
+一个简单的 **弹幕** 项目
 
 
 
