@@ -15,6 +15,13 @@
 		9E8DCB7F1DB653D6004105BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8DCB7D1DB653D6004105BC /* LaunchScreen.storyboard */; };
 		9E8DCB8A1DB653D6004105BC /* SWDanMuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCB891DB653D6004105BC /* SWDanMuDemoTests.m */; };
 		9E8DCB951DB653D7004105BC /* SWDanMuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCB941DB653D7004105BC /* SWDanMuDemoUITests.m */; };
+		9E8DCBB21DB655A4004105BC /* BMDanMuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBA51DB655A4004105BC /* BMDanMuConfig.m */; };
+		9E8DCBB31DB655A4004105BC /* BMDanMuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBA71DB655A4004105BC /* BMDanMuController.m */; };
+		9E8DCBB41DB655A4004105BC /* BMDanMuModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBAA1DB655A4004105BC /* BMDanMuModelManager.m */; };
+		9E8DCBB51DB655A4004105BC /* BMDanMuSpiritView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBAC1DB655A4004105BC /* BMDanMuSpiritView.m */; };
+		9E8DCBB61DB655A4004105BC /* BMReuseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBAF1DB655A4004105BC /* BMReuseManager.m */; };
+		9E8DCBB71DB655A4004105BC /* BMWeakTimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBB11DB655A4004105BC /* BMWeakTimerTarget.m */; };
+		9E8DCBBB1DB6572C004105BC /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DCBBA1DB6572C004105BC /* UIView+Sizes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,22 @@
 		9E8DCB901DB653D7004105BC /* SWDanMuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWDanMuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8DCB941DB653D7004105BC /* SWDanMuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWDanMuDemoUITests.m; sourceTree = "<group>"; };
 		9E8DCB961DB653D7004105BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8DCBA41DB655A4004105BC /* BMDanMuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDanMuConfig.h; sourceTree = "<group>"; };
+		9E8DCBA51DB655A4004105BC /* BMDanMuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDanMuConfig.m; sourceTree = "<group>"; };
+		9E8DCBA61DB655A4004105BC /* BMDanMuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDanMuController.h; sourceTree = "<group>"; };
+		9E8DCBA71DB655A4004105BC /* BMDanMuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDanMuController.m; sourceTree = "<group>"; };
+		9E8DCBA81DB655A4004105BC /* BMDanMuHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDanMuHeader.h; sourceTree = "<group>"; };
+		9E8DCBA91DB655A4004105BC /* BMDanMuModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDanMuModelManager.h; sourceTree = "<group>"; };
+		9E8DCBAA1DB655A4004105BC /* BMDanMuModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDanMuModelManager.m; sourceTree = "<group>"; };
+		9E8DCBAB1DB655A4004105BC /* BMDanMuSpiritView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDanMuSpiritView.h; sourceTree = "<group>"; };
+		9E8DCBAC1DB655A4004105BC /* BMDanMuSpiritView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDanMuSpiritView.m; sourceTree = "<group>"; };
+		9E8DCBAE1DB655A4004105BC /* BMReuseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMReuseManager.h; sourceTree = "<group>"; };
+		9E8DCBAF1DB655A4004105BC /* BMReuseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMReuseManager.m; sourceTree = "<group>"; };
+		9E8DCBB01DB655A4004105BC /* BMWeakTimerTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWeakTimerTarget.h; sourceTree = "<group>"; };
+		9E8DCBB11DB655A4004105BC /* BMWeakTimerTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWeakTimerTarget.m; sourceTree = "<group>"; };
+		9E8DCBB81DB656B1004105BC /* SWDanMuDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWDanMuDemo.pch; sourceTree = "<group>"; };
+		9E8DCBB91DB6572C004105BC /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		9E8DCBBA1DB6572C004105BC /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +104,7 @@
 		9E8DCB631DB653D6004105BC = {
 			isa = PBXGroup;
 			children = (
+				9E8DCBA31DB655A4004105BC /* SWDanMu */,
 				9E8DCB6E1DB653D6004105BC /* SWDanMuDemo */,
 				9E8DCB881DB653D6004105BC /* SWDanMuDemoTests */,
 				9E8DCB931DB653D7004105BC /* SWDanMuDemoUITests */,
@@ -118,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				9E8DCB701DB653D6004105BC /* main.m */,
+				9E8DCBB81DB656B1004105BC /* SWDanMuDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +163,36 @@
 				9E8DCB961DB653D7004105BC /* Info.plist */,
 			);
 			path = SWDanMuDemoUITests;
+			sourceTree = "<group>";
+		};
+		9E8DCBA31DB655A4004105BC /* SWDanMu */ = {
+			isa = PBXGroup;
+			children = (
+				9E8DCBA81DB655A4004105BC /* BMDanMuHeader.h */,
+				9E8DCBA61DB655A4004105BC /* BMDanMuController.h */,
+				9E8DCBA71DB655A4004105BC /* BMDanMuController.m */,
+				9E8DCBA41DB655A4004105BC /* BMDanMuConfig.h */,
+				9E8DCBA51DB655A4004105BC /* BMDanMuConfig.m */,
+				9E8DCBAB1DB655A4004105BC /* BMDanMuSpiritView.h */,
+				9E8DCBAC1DB655A4004105BC /* BMDanMuSpiritView.m */,
+				9E8DCBA91DB655A4004105BC /* BMDanMuModelManager.h */,
+				9E8DCBAA1DB655A4004105BC /* BMDanMuModelManager.m */,
+				9E8DCBAD1DB655A4004105BC /* thirdParty */,
+			);
+			path = SWDanMu;
+			sourceTree = "<group>";
+		};
+		9E8DCBAD1DB655A4004105BC /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				9E8DCBB91DB6572C004105BC /* UIView+Sizes.h */,
+				9E8DCBBA1DB6572C004105BC /* UIView+Sizes.m */,
+				9E8DCBAE1DB655A4004105BC /* BMReuseManager.h */,
+				9E8DCBAF1DB655A4004105BC /* BMReuseManager.m */,
+				9E8DCBB01DB655A4004105BC /* BMWeakTimerTarget.h */,
+				9E8DCBB11DB655A4004105BC /* BMWeakTimerTarget.m */,
+			);
+			path = thirdParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8DCBB51DB655A4004105BC /* BMDanMuSpiritView.m in Sources */,
+				9E8DCBB61DB655A4004105BC /* BMReuseManager.m in Sources */,
+				9E8DCBB21DB655A4004105BC /* BMDanMuConfig.m in Sources */,
+				9E8DCBBB1DB6572C004105BC /* UIView+Sizes.m in Sources */,
 				9E8DCB771DB653D6004105BC /* ViewController.m in Sources */,
 				9E8DCB741DB653D6004105BC /* AppDelegate.m in Sources */,
+				9E8DCBB31DB655A4004105BC /* BMDanMuController.m in Sources */,
+				9E8DCBB41DB655A4004105BC /* BMDanMuModelManager.m in Sources */,
+				9E8DCBB71DB655A4004105BC /* BMWeakTimerTarget.m in Sources */,
 				9E8DCB711DB653D6004105BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +486,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G254S26JY5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SWDanMuDemo/SWDanMuDemo.pch;
 				INFOPLIST_FILE = SWDanMuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +503,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SWDanMuDemo/SWDanMuDemo.pch;
 				INFOPLIST_FILE = SWDanMuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
