@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BMDanMuHeader.h"
+#import "UIView+Sizes.h"
 
 @interface ViewController ()<BMDanMuDelegate>;
 

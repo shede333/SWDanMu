@@ -9,6 +9,7 @@
 #import "BMDanMuController.h"
 #import "BMReuseManager.h"
 #import "BMWeakTimerTarget.h"
+#import "UIView+Sizes.h"
 
 @interface BMDanMuController()
 
